@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    height: 100vh; ; 
+  }
+
+  label {
+    font-weight: bold;
+    color: darkgray;
+  }
+
+  select, input, button {
+    margin: 15px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  .window{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    margin-top: 10%;
+    padding-top: 10%;
+    margin-left: 10px;
+    border: 1px solid;
+   
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+  }
+  input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+  }
+ 
+  .heading{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .result{
+   border: none;
+   box-shadow: 2px;
+  }
+  .frame{
+    background-color: lightblue;
+    width: 550px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 30px;
+    box-shadow: 10px 5px lightgray;
+   
+
+  }
